@@ -47,7 +47,6 @@ void tarea1() {
   static unsigned long previousMillis = 0;
 
   static unsigned long intervalo = 1000;
-  static int8_t rxData[10];
   static char codigoCorrecto[6] = {'d', 'u', 'd', 'd', 'u', 'a'};
   static char codigoIngresado[6];
   static int contador = 0;
