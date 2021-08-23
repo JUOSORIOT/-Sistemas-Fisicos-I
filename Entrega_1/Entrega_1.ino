@@ -88,6 +88,7 @@ void tarea1() {
           if (contador == 6) {
             if (sonIguales(codigoCorrecto, codigoIngresado))
             {
+              Serial.println("Bomba Desarmada");
               estado = 1;
               conteo = 20;
             }
